@@ -1,22 +1,21 @@
-/*This is the CSS page for our final template.*/
-
 p {
     font-family: 'Times New Roman', serif;
     font-size: 20px;
+    color: #d4af37
 }
 
-.jersey-20-regular {
+.jersey-20-regular p {
   font-family: "Jersey 20", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
  }
-.footer p { /* This is how you add styles for only the p text within the footer. */
-	font-family: "Times New Roman", serif;
-	background-color: blueviolet;
-	text-align: center;
-	font-size: 20px;
-	margin-bottom: 0;
+.footer p {
+    font-family: "Times New Roman", serif;
+    background-color: #d4af37; /* Original color */
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 .header {
 	height: auto;
@@ -24,7 +23,8 @@ p {
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: #40c9a2;
+	background-color: #fffff4;
+
 	
 }
 img {
@@ -36,31 +36,34 @@ h4 {
 	font-style: italic;
 	font-size: 40px;
 	font-family: 'Georgia', serif;
+	color: #c23a2a;
 }
 h3 {
 	font-size: 30px;
+	color: #c23a2a;
 }
 
 
-/*Don't worry about this section yet*/
-@media only screen and (max-width: 767px)
-{
-.footer	p {
-	background-color: lightblue;
-}
- .list {
- 	border: solid darkgray 2px;
- 	float: right;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
- }
- img {
-    float: none;
-}
- iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
- }
+@media only screen and (max-width: 767px) {
+    .footer p {
+        background-color: #FF0000;
+    }
+    
+    .list {
+        border: solid darkgray 2px;
+        float: right;
+        min-width: 90%;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    img {
+        float: none;
+    }
+    
+    iframe {
+        min-width: 90%;
+        margin-right: 10px;
+    }
 }
